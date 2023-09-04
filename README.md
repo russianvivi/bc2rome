@@ -1,6 +1,6 @@
-# BC2Rome Docker Image for Project Rome 
+# BC2Rome Docker Image for Project Rome (unoffical)
 
-Do you remember the electrifying moments when you first stepped onto the virtual battlefields of Battlefield Bad Company 2, and nostalgia washed over you like a wave? If you've ever yearned to recapture those unforgettable memories by playing it again, you're not alone. My mission is inspired by the allure of nostalgia and the desire to make it effortless for all Battlefield lovers to host a Server.
+ Make it effortless for all Battlefield lovers to host a game server for [Project Rome](https://veniceunleashed.net/)
 
 ## Table of Contents
 
@@ -10,8 +10,8 @@ Do you remember the electrifying moments when you first stepped onto the virtual
   - [Pull BC2Rome Docker Image](#Pull-BC2ROME-Docker-Image)
 - [Managing Server](#Managing-Server)
 - [Accessing Server](#Accessing_Server)
-- [Game Server Configuration](#Future-Features)
-- [Future Features(#Future-Features)
+- [Game Server Configuration](#Game-Server-Configuration)
+- [Future Features](#Future-Features)
 - [Credits](#Credits)
 
 ## Prerequisites
