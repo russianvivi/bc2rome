@@ -1,6 +1,6 @@
 # BC2Rome Docker Image for Project Rome (unoffical)
 
- Make it effortless for all Battlefield lovers to host a game server for [Project Rome](https://veniceunleashed.net/)
+ Make it effortless for Battlefield lovers to host a game server for [Project Rome](https://veniceunleashed.net/)
 
 ## Table of Contents
 
@@ -32,13 +32,10 @@
   You should see the Docker version information displayed.
   
 ### Pull-BC2ROME-Docker-Image
-  Create folder for container
+
+  Clone Repo
   ```
-  mkdir -p bc2rome
-  ```
-  Change folder
-  ```
-  cd ./bc2rome
+  git clone https://github.com/russianvivi/bc2rome.git
   ```
   To download the BC2Rome Docker image, use the docker pull command
   ```
