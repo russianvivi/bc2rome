@@ -1,10 +1,18 @@
-# BC2Rome 
+# BC2Rome Docker Image for Project Rome 
 
 
 ## Description
+Dear Battlefield Enthusiast,
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+Have you ever found yourself yearning for the ultimate Battlefield experience, wanting to host your own server on Linux, but stumbling upon a barren landscape devoid of Docker images to simplify the process? If so, you're not alone, and that's precisely why we embarked on this journey – to make it easier for all Battlefield lovers like you to carve out their own battlefield on the digital frontier.
 
+Imagine the thrill of having your own dedicated Battlefield server, one where you dictate the rules, call the shots, and create unforgettable memories with friends and fellow gamers. Picture the camaraderie, the battles, and the triumphs, all within the realm of your control.
+
+Our motivation for building this solution is simple yet powerful: we believe that every Battlefield enthusiast should have the opportunity to host their own server effortlessly, regardless of their technical background. We understand your passion for the game, and we want to empower you to transform that passion into a tangible reality.
+
+Here's what we aim to provide:
+
+    Simplicity: Our Docker images and accompanying setup guide are designed with user-friendliness in mind. We've stripped away the complexity, making it accessible to both novices and seasoned Linux users. You won't need to be a server guru to get started.
 - What was your motivation?
 - Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
 - What problem does it solve?
