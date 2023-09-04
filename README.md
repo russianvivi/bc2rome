@@ -80,7 +80,7 @@ Remove all or replace Url (512x64 smaller than 127kb, .PNG format):
 vars.bannerUrl https://i.ibb.co/ZXd7QzS/banner.png
 
 - Change Map rotation
-  Open ./Instance/maplist
+  
 ```
 nano ./Instance/mapslist
 ``` 
