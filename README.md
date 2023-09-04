@@ -71,6 +71,7 @@ Name= <This refers to the name of your game server, which will be displayed in t
 ```
 nano ./Instance/mapslist
 ```
+./Instance/mapslist is the 
 See all Map names in DOCS, Map always starts with Levels/
 ## Future-Features
 - Change Gamemode
