@@ -65,6 +65,7 @@ However, here's a quick overview of the basic configuration steps:
 nano ./Instance/ServerOptions
 ```
 Name= <This refers to the name of your game server, which will be displayed in the server browser.>
+
 - Change Map rotation
   Open ./Instance/maplist
 ```
