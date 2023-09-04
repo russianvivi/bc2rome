@@ -1,36 +1,103 @@
 # BC2Rome Docker Image for Project Rome 
-
-
 ## Description
-Dear Battlefield Enthusiast,
-
-Have you ever found yourself yearning for the ultimate Battlefield experience, wanting to host your own server on Linux, but stumbling upon a barren landscape devoid of Docker images to simplify the process? If so, you're not alone, and that's precisely why we embarked on this journey – to make it easier for all Battlefield lovers like you to carve out their own battlefield on the digital frontier.
-
-Imagine the thrill of having your own dedicated Battlefield server, one where you dictate the rules, call the shots, and create unforgettable memories with friends and fellow gamers. Picture the camaraderie, the battles, and the triumphs, all within the realm of your control.
-
-Our motivation for building this solution is simple yet powerful: we believe that every Battlefield enthusiast should have the opportunity to host their own server effortlessly, regardless of their technical background. We understand your passion for the game, and we want to empower you to transform that passion into a tangible reality.
-
-Here's what we aim to provide:
-
-    Simplicity: Our Docker images and accompanying setup guide are designed with user-friendliness in mind. We've stripped away the complexity, making it accessible to both novices and seasoned Linux users. You won't need to be a server guru to get started.
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+Do you remember the electrifying moments when you first stepped onto the virtual battlefields of Battlefield Bad Company 2, and nostalgia washed over you like a wave? If you've ever yearned to recapture those unforgettable memories by playing it again, you're not alone. My mission is inspired by the allure of nostalgia and the desire to make it effortless for all Battlefield lovers to host a Server.
 
 ## Table of Contents (Optional)
 
 If your README is long, add a table of contents to make it easy for users to find what they need.
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
+Table of Contents
 
-## Installation
+    Prerequisites
+    Getting Started
+        Step 1: Prepare Your Server
+        Step 2: Pull the Battlefield Server Image
+        Step 3: Create a Battlefield Server Container
+        Step 4: Access Your Battlefield Server
+        Step 5: Access the Web Admin Interface (Optional)
+        Step 6: Troubleshooting and Maintenance
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+Prerequisites
 
+Before you begin, ensure that you have the following prerequisites in place:
+
+    Linux Server: You should have access to a Linux server where you intend to host your Battlefield server. This guide assumes you have basic Linux command-line knowledge.
+
+    Docker Engine: Docker should be installed and running on your Linux server. If you haven't installed Docker, you can follow the official Docker installation guide for your Linux distribution.
+
+Getting Started
+
+Follow these steps to set up your Battlefield server on Linux using Docker:
+Step 1: Prepare Your Server
+
+Ensure your server is up to date by running:
+
+bash
+
+sudo apt update
+
+Use the appropriate package manager for your Linux distribution (e.g., yum for CentOS, dnf for Fedora).
+Step 2: Pull the Battlefield Server Image
+
+Pull the official Battlefield server Docker image from the Docker Hub:
+
+bash
+
+docker pull eaofficial/battlefield-server:[VERSION]
+
+Replace [VERSION] with the desired version number (e.g., latest for the latest version).
+Step 3: Create a Battlefield Server Container
+
+Use the docker run command to create a new container from the Battlefield server image. Customize the server settings using environment variables and provide the necessary ports for your server:
+
+bash
+
+docker run -d \
+  -p 80:80 \         # Example ports, adjust as needed
+  -p 443:443 \
+  -e BATTLEFIELD_SERVER_NAME="My Battlefield Server" \
+  -e BATTLEFIELD_ADMIN_PASSWORD="YourAdminPassword" \
+  -e BATTLEFIELD_SERVER_PASSWORD="YourServerPassword" \
+  eaofficial/battlefield-server:[VERSION]
+
+Remember to replace [VERSION] with the appropriate version tag and customize the server name and passwords as needed.
+Step 4: Access Your Battlefield Server
+
+To interact with your Battlefield server, attach to the running container using the following command:
+
+bash
+
+docker exec -it CONTAINER_ID /bin/bash
+
+Replace CONTAINER_ID with the actual container ID obtained when you created the container.
+
+Inside the container, you can start or stop the Battlefield server using the following commands:
+
+bash
+
+./start.sh
+./stop.sh
+
+Step 5: Access the Web Admin Interface (Optional)
+
+If your Battlefield server supports it, you can access the web admin interface by opening a web browser and navigating to:
+
+bash
+
+https://your-server-ip:443/admin
+
+Log in using the admin password you specified during container creation.
+Step 6: Troubleshooting and Maintenance
+
+For troubleshooting and maintenance, refer to the official Battlefield server documentation and Docker documentation.
+
+Congratulations! You've successfully set up a Battlefield server on Linux using Docker. Customize your server, invite friends, and start reliving the epic Battlefield experience.
+
+If you have any questions or encounter issues, please refer to our FAQ or reach out to our community for support.
+
+Enjoy your Battlefield adventures!
+
+Note: This is a simplified guide for setting up a Battlefield server using Docker. For advanced configurations and specific game mode settings, consult the official documentation for the Battlefield server software.
 ## Usage
 
 Provide instructions and examples for use. Include screenshots as needed.
