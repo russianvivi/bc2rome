@@ -22,8 +22,13 @@ Provide a clear and concise introduction to your project. Explain its purpose an
 
 ### Verify-Docker-Installation
 
-List any software, libraries, or hardware that users need to install or have before using your project.
-
+  Open a terminal window.
+  To verify that Docker is installed and running, enter the following command:
+  ```
+  docker --version
+  ```
+  You should see the Docker version information displayed.
+  
 ### Pull-BC2ROME-Docker-Image
 
 Provide step-by-step instructions on how to install and set up your project.
