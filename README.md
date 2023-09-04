@@ -32,9 +32,9 @@ Do you remember the electrifying moments when you first stepped onto the virtual
   
 ### Pull-BC2ROME-Docker-Image
   To download the Battlefield server Docker image, use the docker pull command
-    ```
+  ```
     docker pull russianvivi/bc2rome:latest
-    ```
+  ```
 
 ## Managing-Server
 Once the Docker image is downloaded, you can start the container to run the server. 
