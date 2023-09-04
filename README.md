@@ -62,6 +62,6 @@ Explain how others can contribute to your project. Include guidelines for code s
 - Integrate some kind of Admin Tool
 
 ## Special Thanks to
-- VeniceUnleashed for Project Rome (former Emulator Nexus) and all their great projects
+- [VeniceUnleashed](https://veniceunleashed.net/) for Project Rome (former Emulator Nexus) and all their great projects
 - [flyer8472](https://sourceforge.net/u/flyer8472/profile/) for providing R34 Files
 - DICE for this awesome game
