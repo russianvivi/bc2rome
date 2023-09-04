@@ -53,7 +53,7 @@ sudo docker container ls
 ```
 Use Container ID to kill
 ```
-sudo docker container kill <ID>
+sudo docker container kill <CONTAINER ID>
 ```
 ## Accessing-Server (Client)
 It's essential to ensure that you have the latest game update installed and [ProjectRome](https://veniceunleashed.net/downloads)
@@ -71,14 +71,22 @@ However, here's a quick overview of the basic configuration steps:
 nano ./Instance/ServerOptions
 ```
 Name= <This refers to the name of your game server, which will be displayed in the server browser.>
+- Change/Remove Banner
+```
+./Instance/AdminScripts/Startup
+```
+Remove all or replace Url (512x64 smaller than 127kb, .PNG format): 
+#Banner 
+vars.bannerUrl https://i.ibb.co/ZXd7QzS/banner.png
 
 - Change Map rotation
   Open ./Instance/maplist
 ```
 nano ./Instance/mapslist
-```
-./Instance/mapslist is the 
-See all Map names in DOCS, Map always starts with Levels/
+``` 
+See all Map names in [DOCS](https://mega.nz/file/zjhkTbqZ#5kbq4FnHke9-C7IzU4m28fJ0MzbCfZ30cJiPxFXagWk), 
+Map always starts with Levels/!
+
 ## Future-Features
 - Change Gamemode
 - Integrate some kind of Admin Tool
