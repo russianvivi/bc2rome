@@ -36,6 +36,10 @@
   ```
   mkdir -p bc2rome
   ```
+  Change folder
+  ```
+  cd ./bc2rome
+  ```
   To download the BC2Rome Docker image, use the docker pull command
   ```
   sudo docker pull russianvivi/bc2rome:latest
