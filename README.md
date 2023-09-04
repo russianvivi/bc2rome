@@ -45,14 +45,14 @@ To stop the running container use
 ```
 sudo docker container kill
 ```
-## Accessing-Server
+## Accessing-Server (Client)
 It's essential to ensure that you have the latest game update installed and Project Rome. Project Rome can be downloaded from the following link: Download Project Rome.
 
 After downloading Project Rome, follow these steps:
 
-    Unzip the downloaded file to extract its contents.
-    Locate the file named dinput8.dll from the extracted files.
-    Place the dinput8.dll file into your game directory.
+   Unzip the downloaded file to extract its contents.
+   Locate the file named dinput8.dll from the extracted files.
+   Place the dinput8.dll file into your game directory.
 
 ## Game-Server-Configuration
 
@@ -64,4 +64,5 @@ Explain how others can contribute to your project. Include guidelines for code s
 
 ## Special Thanks to
 - VeniceUnleashed for Project Rome (former Emulator Nexus) and all their great projects
+- [flyer8472](https://sourceforge.net/u/flyer8472/profile/)https://sourceforge.net/u/flyer8472/profile/) for providing R34 Files
 - DICE for this awesome game
