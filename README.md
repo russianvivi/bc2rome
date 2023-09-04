@@ -49,9 +49,9 @@ sudo docker container kill
 It's essential to ensure that you have the latest game update installed and [ProjectRome](https://veniceunleashed.net/downloads)
 After downloading Project Rome, follow these steps:
 
-   Unzip the downloaded file to extract its contents.
-   Locate the file named dinput8.dll from the extracted files.
-   Place the dinput8.dll file into your game directory.
+   - Unzip the downloaded file to extract its contents
+   - Locate the file named dinput8.dll from the extracted files.
+   - Place the dinput8.dll file into your game directory.
 
 ## Game-Server-Configuration
 
