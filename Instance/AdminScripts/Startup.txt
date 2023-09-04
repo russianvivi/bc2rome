@@ -1,0 +1,47 @@
+# This script file is run automatically when the server is launched.
+# It contains commands on the same format as you would type them in the command console.
+# It is always processed as if it is run by a logged-in user.
+# It is run even if the remote-admin interface is disabled.
+#
+# When editing this file, you can check that it is syntactically correct by performing 'admin.runScript Startup.txt' from
+#  the command console, and check the result.
+#
+#
+# This is a good place to put one-time configurations of the server's gamemode (friendly fire on/off etc).
+#
+#
+# Example:
+#
+#vars.hardCore true
+#vars.friendlyFire true
+#
+#Default server settings.
+
+#Set your server to hardcore mode
+vars.hardCore false
+
+#Turn on friendly fire
+vars.friendlyFire false
+
+#Turn auto Balance teams on or off
+vars.teamBalance true
+
+#turn killcam on/off (show the position of who killed you after you die)
+vars.killCam true
+
+#Turn the minimap on or off
+vars.miniMap true
+
+#Turn the crosshair on or off (note that this also turns of the
+crosshair for the UAV)
+vars.crossHair true
+
+#Turn 3dspotting on or off (shows arrows above enemy heads for you and
+your teammates when you see an enemy)
+vars.3dSpotting true
+
+#Turn minimap spotting on or off (displays enemies you or your teammates see on the minimap)
+vars.miniMapSpotting true
+
+#Banner 
+vars.bannerUrl https://i.ibb.co/ZXd7QzS/banner.png
