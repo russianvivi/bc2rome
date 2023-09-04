@@ -10,9 +10,9 @@ Do you remember the electrifying moments when you first stepped onto the virtual
   - [Pull BC2Rome Docker Image](#Pull-BC2ROME-Docker-Image)
 - [Managing Server](#Managing-Server)
 - [Accessing Server](#Accessing_Server)
-- [Game Server Configuration](#Game-Server-Configuration)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
+- [Game Server Configuration](#Future-Features)
+- [Future Features(#Future-Features)
+- [Credits](#Credits)
 
 ## Prerequisites
 
@@ -33,7 +33,7 @@ Do you remember the electrifying moments when you first stepped onto the virtual
 ### Pull-BC2ROME-Docker-Image
   To download the Battlefield server Docker image, use the docker pull command
   ```
-    docker pull russianvivi/bc2rome:latest
+  docker pull russianvivi/bc2rome:latest
   ```
 
 ## Managing-Server
@@ -41,19 +41,27 @@ Once the Docker image is downloaded, you can start the container to run the serv
 ```
 sudo docker container run -p 19026:19026/tcp -p 19021:19021/tcp -p 19567:19567/udp -p 18390:18390/udp -p 5900:5900/tcp -p 80:80/tcp -v "./Instance:/project/Instance" bc2rome:latest
 ```
-
+To stop the running container use 
+```
+sudo docker container kill
+```
 ## Accessing-Server
+It's essential to ensure that you have the latest game update installed and Project Rome. Project Rome can be downloaded from the following link: Download Project Rome.
 
-List and briefly describe the key features of your project.
+After downloading Project Rome, follow these steps:
+
+    Unzip the downloaded file to extract its contents.
+    Locate the file named dinput8.dll from the extracted files.
+    Place the dinput8.dll file into your game directory.
 
 ## Game-Server-Configuration
 
 Explain how others can contribute to your project. Include guidelines for code style, issue reporting, and pull requests.
 
-## License
+## Future-Features
+- Change Gamemode
+- Integrate some kind of Admin Tool
 
-State the license under which your project is released. For example, you can use the [MIT License](LICENSE) or any other open-source license.
-
-## Acknowledgments
-
-If you want to thank individuals, projects, or libraries that inspired or helped you during the project, you can include them here.
+## Special Thanks to
+- VeniceUnleashed for Project Rome and all their great projects
+- DICE for this awesome game
