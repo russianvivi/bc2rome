@@ -30,12 +30,16 @@ Provide a clear and concise introduction to your project. Explain its purpose an
   You should see the Docker version information displayed.
   
 ### Pull-BC2ROME-Docker-Image
-
-Provide step-by-step instructions on how to install and set up your project.
+  To download the Battlefield server Docker image, use the docker pull command
+    ```
+  docker pull russianvivi/bc2rome:latest
+    ```
 
 ## Managing-Server
-
-Explain how to use your project, including examples and screenshots if applicable.
+Once the Docker image is downloaded, you can start the container to run the server. 
+```
+sudo docker container run -p 19026:19026/tcp -p 19021:19021/tcp -p 19567:19567/udp -p 18390:18390/udp -p 5900:5900/tcp -p 80:80/tcp -v "./Instance:/project/Instance" bc2rome:latest
+```
 
 ## Accessing-Server
 
