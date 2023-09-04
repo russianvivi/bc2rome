@@ -4,39 +4,39 @@ Do you remember the electrifying moments when you first stepped onto the virtual
 
 ## Table of Contents
 
-- [Prerequisites](#prerequisites)
-- [Getting Started](#getting-started)
-  - [Verify Docker Installation](#verify-docker-installation)
-  - [Pull BC2Rome Docker Image](#pull_bc2rome_docker_image)
-- [Managing Server](#managing_server)
-- [Accessing Server](#accessing_server)
-- [Server Configuration](#contributing)
+- [Prerequisites](#Prerequisites)
+- [Getting Started](#Getting-started)
+  - [Verify Docker Installation](#Verify-Docker-Installation)
+  - [Pull BC2Rome Docker Image](#Pull-BC2ROME-Docker-Image)
+- [Managing Server](#Managing-Server)
+- [Accessing Server](#Accessing_Server)
+- [Game Server Configuration](#Game-Server-Configuration)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
 
-## prerequisites
+## Prerequisites
 
 Provide a clear and concise introduction to your project. Explain its purpose and what problem it solves.
 
-## getting-started
+## Getting-started
 
-### Prerequisites
+### Verify-Docker-Installation
 
 List any software, libraries, or hardware that users need to install or have before using your project.
 
-### Installation
+### Pull-BC2ROME-Docker-Image
 
 Provide step-by-step instructions on how to install and set up your project.
 
-## Usage
+## Managing-Server
 
 Explain how to use your project, including examples and screenshots if applicable.
 
-## Features
+## Accessing-Server
 
 List and briefly describe the key features of your project.
 
-## Contributing
+## Game-Server-Configuration
 
 Explain how others can contribute to your project. Include guidelines for code style, issue reporting, and pull requests.
 
