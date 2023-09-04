@@ -61,12 +61,17 @@ After downloading Project Rome, follow these steps:
 You can configure a lot on R34, for comprehensive documentation, you can download DOCS [here](https://mega.nz/file/zjhkTbqZ#5kbq4FnHke9-C7IzU4m28fJ0MzbCfZ30cJiPxFXagWk) (not uploaded by me).
 However, here's a quick overview of the basic configuration steps:
 - Change Server Name
-Open ./Instance/ServerOptions with a text editor, for example:
+  Open ./Instance/ServerOptions with a text editor:
 ```
 nano ./Instance/ServerOptions
 ```
 Name= <This refers to the name of your game server, which will be displayed in the server browser.>
-
+- Change Map rotation
+  Open ./Instance/maplist
+```
+nano ./Instance/mapslist
+```
+See all Map names in DOCS, Map always starts with Levels/
 ## Future-Features
 - Change Gamemode
 - Integrate some kind of Admin Tool
