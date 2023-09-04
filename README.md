@@ -16,7 +16,8 @@ Do you remember the electrifying moments when you first stepped onto the virtual
 
 ## Prerequisites
 
-Provide a clear and concise introduction to your project. Explain its purpose and what problem it solves.
+  -A Linux machine (Ubuntu, CentOS, Debian, etc.)
+  -Docker Engine installed (refer to Docker's official installation guide for your Linux distribution)
 
 ## Getting-started
 
