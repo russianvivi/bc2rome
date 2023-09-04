@@ -41,21 +41,24 @@ Once the Docker image is downloaded, you can start the container to run the serv
 ```
 sudo docker container run -p 19026:19026/tcp -p 19021:19021/tcp -p 19567:19567/udp -p 18390:18390/udp -p 5900:5900/tcp -p 80:80/tcp -v "./Instance:/project/Instance" bc2rome:latest
 ```
-To stop the running container use 
+To determ the container id run:
 ```
-sudo docker container kill
+sudo docker container ls
+```
+Use Container ID to kill
+```
+sudo docker container kill <ID>
 ```
 ## Accessing-Server (Client)
 It's essential to ensure that you have the latest game update installed and [ProjectRome](https://veniceunleashed.net/downloads)
 After downloading Project Rome, follow these steps:
 
    - Unzip the downloaded file to extract its contents
-   - Locate the file named dinput8.dll from the extracted files.
-   - Place the dinput8.dll file into your game directory.
+   - Locate the file named dinput8.dll from the extracted files
+   - Place the dinput8.dll file into your game directory
 
 ## Game-Server-Configuration
 
-Explain how others can contribute to your project. Include guidelines for code style, issue reporting, and pull requests.
 
 ## Future-Features
 - Change Gamemode
