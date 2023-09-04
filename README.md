@@ -31,7 +31,7 @@
   You should see the Docker version information displayed.
   
 ### Pull-BC2ROME-Docker-Image
-  To download the Battlefield server Docker image, use the docker pull command
+  To download the BC2Rome Docker image, use the docker pull command
   ```
   docker pull russianvivi/bc2rome:latest
   ```
