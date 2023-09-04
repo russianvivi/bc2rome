@@ -66,14 +66,19 @@ After downloading Project Rome, follow these steps:
 ## Game-Server-Configuration
 You can configure a lot on R34, for comprehensive documentation, you can download DOCS [here](https://mega.nz/file/zjhkTbqZ#5kbq4FnHke9-C7IzU4m28fJ0MzbCfZ30cJiPxFXagWk) (not uploaded by me).
 However, here's a quick overview of the basic configuration steps:
-- To Change Server Name open ./Instance/ServerOptions with a text editor:
+- Important! Change Admin Password
 ```
-nano ./Instance/ServerOptions
+nano ./Instance/ServerOptions.ini
+```
+RemoteAdminPassword=<Password>
+- To Change Server Name open ./Instance/ServerOptions.ini with a text editor:
+```
+nano ./Instance/ServerOptions.ini
 ```
 Name= <This refers to the name of your game server, which will be displayed in the server browser.>
 - Change/Remove Banner
 ```
-./Instance/AdminScripts/Startup
+./Instance/AdminScripts/Startup.txt
 ```
 Remove all or replace Url (512x64 smaller than 127kb, .PNG format): 
 #Banner 
@@ -82,7 +87,7 @@ vars.bannerUrl https://i.ibb.co/ZXd7QzS/banner.png
 - Change Map rotation
   
 ```
-nano ./Instance/mapslist
+nano ./Instance/mapslist.txt
 ``` 
 See all Map names in [DOCS](https://mega.nz/file/zjhkTbqZ#5kbq4FnHke9-C7IzU4m28fJ0MzbCfZ30cJiPxFXagWk), 
 Map always starts with Levels/!
