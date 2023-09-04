@@ -6,8 +6,8 @@
 
 - [Prerequisites](#Prerequisites)
 - [Getting Started](#Getting-started)
-  - [Verify Docker Installation](#Verify-Docker-Installation)
-  - [Pull BC2Rome Docker Image](#Pull-BC2ROME-Docker-Image)
+- [Verify Docker Installation](#Verify-Docker-Installation)
+- [Pull BC2Rome Docker Image](#Pull-BC2ROME-Docker-Image)
 - [Managing Server](#Managing-Server)
 - [Accessing Server](#Accessing_Server)
 - [Game Server Configuration](#Game-Server-Configuration)
