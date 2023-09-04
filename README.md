@@ -16,8 +16,8 @@ Do you remember the electrifying moments when you first stepped onto the virtual
 
 ## Prerequisites
 
-  -A Linux machine (Ubuntu, CentOS, Debian, etc.)
-  -Docker Engine installed (refer to Docker's official installation guide for your Linux distribution)
+  - A Linux machine (Ubuntu, CentOS, Debian, etc.)
+  - Docker Engine installed (refer to Docker's official installation guide for your Linux distribution)
 
 ## Getting-started
 
