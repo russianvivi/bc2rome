@@ -11,6 +11,7 @@
 - [Managing Server](#Managing-Server)
 - [Accessing Server](#Accessing_Server)
 - [Game Server Configuration](#Game-Server-Configuration)
+- [Easy Administration Procon](### Easy-Administration-Procon)
 - [Future Features](#Future-Features)
 - [Credits](#Credits)
 
