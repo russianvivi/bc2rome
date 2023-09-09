@@ -100,4 +100,5 @@ Create Connection, enter public IP from your server and enter password which we 
 ## Special Thanks to
 - [VeniceUnleashed](https://veniceunleashed.net/) for Project Rome (former Emulator Nexus) and all their great projects
 - [flyer8472](https://sourceforge.net/u/flyer8472/profile/) for providing R34 Files
+- [MyRCON](https://myrcon.net/) for providing the admin tool
 - DICE for this awesome game
