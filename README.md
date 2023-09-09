@@ -45,7 +45,7 @@
 ## Managing-Server
 Once the Docker image is downloaded, you can start the container to run the server. 
 ```
-sudo docker container run -p 19026:19026/tcp -p 19021:19021/tcp -p 19567:19567/udp -p 18390:18390/udp -p 5900:5900/tcp -p 80:80/tcp -v "./Instance:/project/R34_Full/Instance" russianvivi/bc2rome
+sudo docker container run -p 19026:19026/tcp -p 19021:19021/tcp -p 19567:19567/udp -p 18390:18390/udp -p 5900:5900/tcp -p 80:80/tcp -p 48888:48888/tcp -v "./Instance:/project/R34_Full/Instance" russianvivi/bc2rome
 ```
 To determ the container id run:
 ```
@@ -91,10 +91,12 @@ nano ./Instance/mapslist.txt
 ``` 
 See all Map names in [DOCS](https://mega.nz/file/zjhkTbqZ#5kbq4FnHke9-C7IzU4m28fJ0MzbCfZ30cJiPxFXagWk), 
 Map always starts with Levels/!
-
+## Easy-Administration-Procon
+For easy administration download Procon from [here](https://myrcon.net/files/).
+Create Connection, enter public IP from your server and enter password which we set in ServerOptions.ini in /Instance Folder (RemoteAdminPassword)
+Enter 
 ## Future-Features
 - Change Gamemode
-- Integrate some kind of Admin Tool
 
 ## Special Thanks to
 - [VeniceUnleashed](https://veniceunleashed.net/) for Project Rome (former Emulator Nexus) and all their great projects
