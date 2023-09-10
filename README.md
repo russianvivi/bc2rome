@@ -11,7 +11,7 @@
 - [Managing Server](#Managing-Server)
 - [Accessing Server](#Accessing_Server)
 - [Game Server Configuration](#Game-Server-Configuration)
-- [Easy Administration Procon](### Easy-Administration-Procon)
+- [Easy Administration Procon](#Easy-Administration-Procon)
 - [Future Features](#Future-Features)
 - [Credits](#Credits)
 
@@ -67,21 +67,16 @@ After downloading Project Rome, follow these steps:
 ## Game-Server-Configuration
 You can configure a lot on R34, for comprehensive documentation, you can download DOCS [here](https://mega.nz/file/zjhkTbqZ#5kbq4FnHke9-C7IzU4m28fJ0MzbCfZ30cJiPxFXagWk) (not uploaded by me).
 However, here's a quick overview of the basic configuration steps:
-- Important! Change Admin Password
+Open ./Instance/ServerOptions.ini 
 ```
 nano ./Instance/ServerOptions.ini
 ```
-RemoteAdminPassword=<Password>
-- To Change Server Name open ./Instance/ServerOptions.ini with a text editor:
-```
-nano ./Instance/ServerOptions.ini
-```
-Name= <This refers to the name of your game server, which will be displayed in the server browser.>
-- Change/Remove Banner
-```
-./Instance/AdminScripts/Startup.txt
-```
-Remove all or replace Url (512x64 smaller than 127kb, .PNG format): 
+- Change your Admin Password (RemoteAdminPassword=<Password>)
+
+- Change Server Name (Name= <This refers to the name of your game server, which will be displayed in the server browser.>)
+
+Open ./Instance/AdminScripts/Startup.txt
+- Change/Remove Banner (Remove all or replace Url (512x64 smaller than 127kb, .PNG format)
 #Banner 
 vars.bannerUrl https://i.ibb.co/ZXd7QzS/banner.png
 
@@ -96,10 +91,10 @@ Map always starts with Levels/!
 For easy administration download Procon from [here](https://myrcon.net/files/).
 Create Connection, enter public IP from your server and enter password which we set in ServerOptions.ini in /Instance Folder (RemoteAdminPassword) and connect.
 ## Future-Features
-- Change Gamemode
+- Integrate Procon Layer for permanent plugins & easy administration
 
 ## Special Thanks to
 - [VeniceUnleashed](https://veniceunleashed.net/) for Project Rome (former Emulator Nexus) and all their great projects
 - [flyer8472](https://sourceforge.net/u/flyer8472/profile/) for providing R34 Files
 - [MyRCON](https://myrcon.net/) for providing the admin tool
-- DICE for this awesome game
+- [DICE](https://www.dice.se) for this awesome game
