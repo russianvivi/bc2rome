@@ -76,12 +76,15 @@ nano ./Instance/ServerOptions.ini
 
 - Change Server Name (Name=ServerName) This refers to the name of your game server, which will be displayed in the server browser.
 
-Open ./Instance/AdminScripts/Startup.txt
+Open Startup.txt
+```
+nano ./Instance/ServerOptions.ini
+```
 - Change/Remove Banner (Remove all or replace Url (512x64 smaller than 127kb, .PNG format)
 #Banner 
 vars.bannerUrl https://i.ibb.co/ZXd7QzS/banner.png
 
-- Change Map rotation
+- Change Gamemode and Map rotation
   
 ```
 nano ./Instance/mapslist.txt
