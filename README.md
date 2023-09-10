@@ -140,7 +140,7 @@ See all Map names in [DOCS](https://mega.nz/file/zjhkTbqZ#5kbq4FnHke9-C7IzU4m28f
 Map always starts with Levels/!
 ## Easy-Administration-Procon
 For easy administration download Procon from [here](https://myrcon.net/files/).
-Create Connection, enter public IP from your server and enter password which we set in ServerOptions.ini in /Instance Folder (RemoteAdminPassword) and connect.
+Create Connection, enter public IP:48888 from your server and enter password which we set in ServerOptions.ini in /Instance Folder (RemoteAdminPassword) and connect.
 
 ## Future-Features
 - Integrate Procon Layer for permanent plugins & easy administration
