@@ -67,13 +67,14 @@ After downloading Project Rome, follow these steps:
 ## Game-Server-Configuration
 You can configure a lot on R34, for comprehensive documentation, you can download DOCS [here](https://mega.nz/file/zjhkTbqZ#5kbq4FnHke9-C7IzU4m28fJ0MzbCfZ30cJiPxFXagWk) (not uploaded by me).
 However, here's a quick overview of the basic configuration steps:
-Open ./Instance/ServerOptions.ini 
+
+Open ServerOptions.ini 
 ```
 nano ./Instance/ServerOptions.ini
 ```
-- Change your Admin Password (RemoteAdminPassword=<Password>)
+- Change your Admin Password (RemoteAdminPassword=Password)
 
-- Change Server Name (Name= <This refers to the name of your game server, which will be displayed in the server browser.>)
+- Change Server Name (Name=ServerName) This refers to the name of your game server, which will be displayed in the server browser.
 
 Open ./Instance/AdminScripts/Startup.txt
 - Change/Remove Banner (Remove all or replace Url (512x64 smaller than 127kb, .PNG format)
