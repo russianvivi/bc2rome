@@ -58,6 +58,11 @@ cd ./bc2rome
 ```
 sudo docker container run -p 19026:19026/tcp -p 19021:19021/tcp -p 19567:19567/udp -p 18390:18390/udp -p 5900:5900/tcp -p 80:80/tcp -p 48888:48888/tcp -v "./Instance:/project/R34_Full/Instance" russianvivi/bc2rome:latest
 ```
+It may be that some distributions need the absolute path
+```
+sudo docker container run -p 19026:19026/tcp -p 19021:19021/tcp -p 19567:19567/udp -p 18390:18390/udp -p 5900:5900/tcp -p 80:80/tcp -p 48888:48888/tcp -v "<absolutePath>bc2rome/Instance:/project/R34_Full/Instance" russianvivi/bc2rome:latest
+```
+
 To determ the container id run:
 ```
 sudo docker container ls
