@@ -1,4 +1,4 @@
-# BC2Rome Docker Image for Project Rome (unoffical)
+# BC2Rome Docker Image for Project Rome
 
  For Battlefield lovers to host a game server for [Project Rome](https://veniceunleashed.net/) with docker.
 
