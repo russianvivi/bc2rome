@@ -87,11 +87,26 @@ vars.bannerUrl https://i.ibb.co/ZXd7QzS/banner.png
 
 
 
-- Change Gamemode and Map rotation
-  
+Open maplist.txt  
 ```
 nano ./Instance/mapslist.txt
-``` 
+```
+- First line is gamemode for example RUSH CONQUEST etc.
+
+RUSH
+Levels/MP_002 0
+Levels/MP_004 0
+Levels/MP_005GR 0
+Levels/MP_006 0
+Levels/MP_007GR 0
+Levels/MP_008 0
+Levels/MP_009GR 0
+Levels/MP_012GR 0
+Levels/BC1_Oasis_GR 0
+Levels/BC1_Harvest_Day_GR 0
+Levels/MP_SP_002GR 0
+Remember maps are gamemode dependent!
+
 See all Map names in [DOCS](https://mega.nz/file/zjhkTbqZ#5kbq4FnHke9-C7IzU4m28fJ0MzbCfZ30cJiPxFXagWk), 
 Map always starts with Levels/!
 ## Easy-Administration-Procon
