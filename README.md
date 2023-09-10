@@ -12,6 +12,7 @@
 - [Accessing Server](#Accessing_Server)
 - [Game Server Configuration](#Game-Server-Configuration)
 - [Easy Administration Procon](#Easy-Administration-Procon)
+- [Troubleshoot](#Troubleshoot)
 - [Future Features](#Future-Features)
 - [Credits](#Credits)
 
@@ -60,7 +61,7 @@ sudo docker container run -p 19026:19026/tcp -p 19021:19021/tcp -p 19567:19567/u
 ```
 It may be that some distributions need the absolute path
 ```
-sudo docker container run -p 19026:19026/tcp -p 19021:19021/tcp -p 19567:19567/udp -p 18390:18390/udp -p 5900:5900/tcp -p 80:80/tcp -p 48888:48888/tcp -v "<absolutePath>bc2rome/Instance:/project/R34_Full/Instance" russianvivi/bc2rome:latest
+sudo docker container run -p 19567:19557/tcp -p 48888:48888/tcp -v "<absolutePath>bc2rome/Instance:/project/R34_Full/Instance" russianvivi/bc2rome:latest
 ```
 
 To determ the container id run:
@@ -140,6 +141,7 @@ Map always starts with Levels/!
 ## Easy-Administration-Procon
 For easy administration download Procon from [here](https://myrcon.net/files/).
 Create Connection, enter public IP from your server and enter password which we set in ServerOptions.ini in /Instance Folder (RemoteAdminPassword) and connect.
+
 ## Future-Features
 - Integrate Procon Layer for permanent plugins & easy administration
 
