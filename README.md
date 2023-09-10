@@ -33,12 +33,19 @@
   You should see the Docker version information displayed.
   
 ### Pull-BC2ROME-Docker-Image
-
+  Create Folder
+   ```
+  mkdir server
+  ```
+  Change Directory
+  ```
+  cd ./server
+  ```
   Clone Repo
   ```
   git clone https://github.com/russianvivi/bc2rome.git
   ```
-  To download the BC2Rome Docker image, use the docker pull command
+  Get Docker Image
   ```
   sudo docker pull russianvivi/bc2rome:latest
   ```
