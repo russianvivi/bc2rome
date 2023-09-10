@@ -92,10 +92,14 @@ Open maplist.txt
 nano ./Instance/mapslist.txt
 ```
 - First line is gamemode for example RUSH CONQUEST etc.
+Example:
 
 RUSH
+
 Levels/MP_002 0
+
 Levels/MP_004 0
+
 Levels/MP_005GR 0
 Levels/MP_006 0
 Levels/MP_007GR 0
