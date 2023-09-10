@@ -80,7 +80,9 @@ Open Startup.txt
 ```
 nano ./Instance/ServerOptions.ini
 ```
-- Change/Remove Banner (Remove all or replace Url (512x64 smaller than 127kb, .PNG format)
+- Change/Remove Banner
+
+- (Remove all or replace Url (512x64 smaller than 127kb, .PNG format)
 #Banner 
 vars.bannerUrl https://i.ibb.co/ZXd7QzS/banner.png
 
